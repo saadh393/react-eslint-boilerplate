@@ -6,15 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App h1 {
+  text-transform: uppercase;
+}
+.highlight {
+  color: #53d895;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    transform: scale(0.8);
+    animation: App-logo-spin infinite 1s linear alternate-reverse;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #101c2c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,9 +37,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(0.8);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(0.9);
   }
 }
