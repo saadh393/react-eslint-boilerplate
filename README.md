@@ -8,7 +8,11 @@ Integrating Eslint and Prettier with React project is so hard especially when yo
 
 To install all the packages
 
-> npm install
+> npm install --legacy-peer-deps
+
+#### Make sure those looks the same
+
+![](https://raw.githubusercontent.com/saadh393/react-eslint-boilerplate/main/src/bottom.png)
 
 ### Screenshort
 
